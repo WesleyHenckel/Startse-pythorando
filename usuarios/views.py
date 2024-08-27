@@ -49,3 +49,6 @@ def logar(request):
 
         messages.add_message(request, constants.ERROR, 'Usuario ou senha inválidos')
         return redirect('/usuarios/logar')
+
+def index(request):
+    return render(request, 'usuarios/logar.html')
