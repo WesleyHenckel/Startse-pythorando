@@ -51,4 +51,4 @@ def logar(request):
         return redirect('/usuarios/logar')
 
 def index(request):
-    return render(request, 'usuarios/logar.html')
+    return render(request, 'logar.html')
